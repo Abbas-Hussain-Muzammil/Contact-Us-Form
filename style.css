@@ -1,0 +1,105 @@
+body,html{
+    background : black;
+    overflow-x: hidden;
+    padding: auto;
+    margin: 15px;
+    text-align: center;
+    font-size:x-small;
+
+}
+
+* {
+    font-family: 'Nunito',sans-serif;
+   
+   
+    box-sizing: border-box;
+    /* text-decoration: none; */
+    outline: none;
+    
+    transition: all.2s linear;
+}
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    color: #fff;
+}
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content{
+    flex:1 1 40rem;
+    padding: 0rem;
+    padding-bottom: 0;
+}
+.contact .row form{
+    flex:1 1 45rem;
+    padding:0rem;
+    margin:2rem;
+    margin-bottom: 4rem;
+}
+.contact .row form .box{
+padding: 1.5rem;
+margin: 1rem 0;
+background: #3333;
+color: #ffffff;
+text-transform: none;
+font-size: 1.7rem;
+width: 100%;
+/* text-align: auto; */
+}
+.contact.row form .box::placeholder{
+    text-transform: capitalize;
+}
+.contact.row form .message{
+    height: 10rem;
+    resize: none;
+}
+
+
+.btn:hover{
+    
+    background-color:rgb(51,51,51);
+    opacity: 0.9;
+    
+}
+
+.btn {
+
+    position: relative;
+    width: 250px;
+    height: 50px;
+    top: 0px;
+    color:white;
+    cursor: pointer;
+    padding: 14px;
+    background-color: black;
+    
+    margin:auto;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.wrapper {
+    text-align: center;
+}
+.WebContainer{
+    width:auto;
+    min-width:auto;
+    height:auto;
+}
+
+.img{
+
+  /* border-radius: 10px;
+  width: 300px; */
+  height: 250px;
+
+}
+
